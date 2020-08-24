@@ -11,8 +11,6 @@ function App() {
     })
     .then((token) => {
       console.log("token", token);
-      alert(token);
-      prompt("token", token);
     });
   return (
     <div className="App">
